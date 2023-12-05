@@ -35,10 +35,13 @@
 - Применение вычисляемой матрицы переходов (вращений) на близких CLIP векторах, может теоретически дать аккуратное смещение текстового эмбединга, используемого для генерации, и получения близкого представления
 
       *R = I + (n_2 * n_1.T -  n_1 * n_2.T) *  sin(a) +  (n_1 * n_1.T +  n_2 * n_2.T) *  (cos(a) - 1)
-       [ref](https://math.stackexchange.com/questions/598750/finding-the-rotation-matrix-in-n-dimensions)
+       (https://math.stackexchange.com/questions/598750/finding-the-rotation-matrix-in-n-dimensions)
 
 ![Alt text](images/decart.png)
   
 ## ЭКСПЕРЕМЕНТЫ
-<li>  Для созда
-
+<li>  Unet stable-diffusion-v1-4
+     
+Solarized dark             |  Solarized Ocean
+:-------------------------:|:-------------------------:
+![]([https://...Dark.png](https://drive.google.com/file/d/1vMjnMGKsfqUEjuCVTj9J6GVmhOZibWq1/view?usp=sharing)https://drive.google.com/file/d/1vMjnMGKsfqUEjuCVTj9J6GVmhOZibWq1/view?usp=sharing)  |  ![]([https://...Ocean.png](https://drive.google.com/file/d/1-c3gJJN5hJQQSK9X9BP1i7Lvtll5IAIb/view?usp=sharing)https://drive.google.com/file/d/1-c3gJJN5hJQQSK9X9BP1i7Lvtll5IAIb/view?usp=sharing)

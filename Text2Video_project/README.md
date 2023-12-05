@@ -42,6 +42,6 @@
 ## ЭКСПЕРЕМЕНТЫ
 <li>  Unet stable-diffusion-v1-4
 
-<img src="gifs/43_textforse_0.0075_dreif_0.003_test_0.gif" alt="gif"  width="200"/> <img src="gifs/23_textforse_0.0075_dreif_0.001_test_robot_dreif_own_latent%20(1).gif" alt="gif" width="200"/> <img src="gifs/42_textforse_0.0035_dreif_0_test_photograph of a a man is eating food in the middle of the night _1.gif" alt="gif" width="200"/> <img src="gifs/42_textforse_0.0035_dreif_0.001_seed_7901_test_photograph of an astronaut jumping on the moon from a tiger_shift_5.gif" alt="gif" width="200"/> <img src="gifs/movie_40.gif" alt="gif"  width="200"/> 
+<img src="gifs/43_textforse_0.0075_dreif_0.003_test_0.gif" alt="gif"  width="180"/> <img src="gifs/23_textforse_0.0075_dreif_0.001_test_robot_dreif_own_latent%20(1).gif" alt="gif" width="180"/> <img src="gifs/42_textforse_0.0035_dreif_0_test_photograph of a a man is eating food in the middle of the night _1.gif" alt="gif" width="180"/> <img src="gifs/42_textforse_0.0035_dreif_0.001_seed_7901_test_photograph of an astronaut jumping on the moon from a tiger_shift_5.gif" alt="gif" width="180"/> <img src="gifs/movie_40.gif" alt="gif"  width="180"/> 
 
 

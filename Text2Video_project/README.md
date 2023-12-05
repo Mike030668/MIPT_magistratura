@@ -52,3 +52,5 @@
 ## ИСТОЧНИК ДВИЖЕНИЙ
 <img src="gifs/Kandinsky-2-2_28_each_2_forse_rote 0.3 with NORM_ROTED, forse R_drift latent 1, forse edge drift 1_test_11.gif" width="500"/>
 <img src="gifs/Kandinsky-2-2_12_each_2_forse_rote 0.5 with NORM_ROTED, forse R_drift latent 1, forse edge drift 1_test_1.gif" alt="gif" width="500"/>
+
+![Полная перезентация] (https://docs.google.com/presentation/d/1i22VXV6laRhb9u5Bu497D2ExWdTTPeZF/edit#slide=id.g29f55cf90c1_0_185)

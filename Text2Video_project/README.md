@@ -2,7 +2,7 @@
 # Презентация исследований в подходе к задаче Text - 2 - Video
 
 ## Отправная точка - идея сплитера эмбедингов:
-- [презентация](https://drive.google.com/file/d/1pAPhVM_eh3-WU_iY04GDMMV648D3NOhd/view?usp=sharing) идеи руководителю перед началом исследований
+- [презентация начала исследований](https://drive.google.com/file/d/1pAPhVM_eh3-WU_iY04GDMMV648D3NOhd/view?usp=sharing) идеи руководителю перед началом исследований
 
 ## Цель и задачи исследования:
 ### Цель 
@@ -53,4 +53,4 @@
 <img src="gifs/Kandinsky-2-2_28_each_2_forse_rote 0.3 with NORM_ROTED, forse R_drift latent 1, forse edge drift 1_test_11.gif" width="500"/>
 <img src="gifs/Kandinsky-2-2_12_each_2_forse_rote 0.5 with NORM_ROTED, forse R_drift latent 1, forse edge drift 1_test_1.gif" alt="gif" width="500"/>
 
-![Полная перезентация] (https://docs.google.com/presentation/d/1i22VXV6laRhb9u5Bu497D2ExWdTTPeZF/edit#slide=id.g29f55cf90c1_0_185)
+![Полная перезентация этапа исследований](https://docs.google.com/presentation/d/1E9GgH9KTNnQ3z5-J34jl_r79LaKX4ryCH5NHrliwX5o/edit?usp=sharing)

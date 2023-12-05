@@ -44,9 +44,9 @@
 <img src="gifs/43_textforse_0.0075_dreif_0.003_test_0.gif" alt="gif"  width="180"/> <img src="gifs/23_textforse_0.0075_dreif_0.001_test_robot_dreif_own_latent%20(1).gif" alt="gif" width="180"/> <img src="gifs/42_textforse_0.0035_dreif_0_test_photograph of a a man is eating food in the middle of the night _1.gif" alt="gif" width="180"/> <img src="gifs/42_textforse_0.0035_dreif_0.001_seed_7901_test_photograph of an astronaut jumping on the moon from a tiger_shift_5.gif" alt="gif" width="180"/> <img src="gifs/movie_40.gif" alt="gif"  width="180"/> 
 
 ### **Unet Kandinsky 2.2 Text 2 Image**
-<img src="gifs/edge latent with NORN_LATENT_Kandinsky-2-2_2_each_2_forse rore edge 0.5 with forse drift 0.5_test_0.gif" alt="gif" width="280"/>
-<img src="gifs/Generation from R_drift latent, with drift edge latent and NORN_LATENT_Kandinsky-2-2_46_each_2_forse R_drift latent 1, forse edge drift 0.5_test_9.gif" alt="gif" width="280"/>
-<img src="gifs/Generation from roted text, R_drift latent, with drift edge latent and NORN_LATENT_Kandinsky-2-2_46_each_2_forse_rote 1 with NORM_ROTED, forse R_drift latent 1, forse edge drift 1_test_9.gif" alt="gif" width="280"/> 
+<img src="gifs/edge latent with NORN_LATENT_Kandinsky-2-2_2_each_2_forse rore edge 0.5 with forse drift 0.5_test_0.gif" alt="gif" width="300"/>
+<img src="gifs/Generation from R_drift latent, with drift edge latent and NORN_LATENT_Kandinsky-2-2_46_each_2_forse R_drift latent 1, forse edge drift 0.5_test_9.gif" alt="gif" width="300"/>
+<img src="gifs/Generation from roted text, R_drift latent, with drift edge latent and NORN_LATENT_Kandinsky-2-2_46_each_2_forse_rote 1 with NORM_ROTED, forse R_drift latent 1, forse edge drift 1_test_9.gif" alt="gif" width="300"/> 
 
 
 ## ИСТОЧНИК ДВИЖЕНИЙ

@@ -46,5 +46,5 @@
 
 <li>  Unet Kandinsky 2.2 Text 2 Image
 
-<img src="gifs/edge latent with NORN_LATENT_Kandinsky-2-2_2_each_2_forse rore edge 0.5 with forse drift 0.5_test_0.gif" alt="gif" width="200"/> <img src="gifs/Generation from R_drift latent, with drift edge latent and NORN_LATENT_Kandinsky-2-2_46_each_2_forse R_drift latent 1, forse edge drift 0.5_test_9.gif" alt="gif" width="200"/> 
+<img src="gifs/edge latent with NORN_LATENT_Kandinsky-2-2_2_each_2_forse rore edge 0.5 with forse drift 0.5_test_0.gif" alt="gif" width="300"/> <img src="gifs/Generation from R_drift latent, with drift edge latent and NORN_LATENT_Kandinsky-2-2_46_each_2_forse R_drift latent 1, forse edge drift 0.5_test_9.gif" alt="gif" width="300"/> <img src="gifs/Generation from roted text, R_drift latent, with drift edge latent and NORN_LATENT_Kandinsky-2-2_46_each_2_forse_rote 1 with NORM_ROTED, forse R_drift latent 1, forse edge drift 1_test_9.gif" alt="gif" width="300"/> 
 

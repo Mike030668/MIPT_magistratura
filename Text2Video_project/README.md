@@ -35,7 +35,7 @@
 
 - Применение вычисляемой матрицы переходов (вращений) на близких CLIP векторах, может теоретически дать аккуратное смещение текстового эмбединга, используемого для генерации, и получения близкого представления
 
-      *R = I + (n_2 * n_1.T -  n_1 * n_2.T) *  sin(a) +  (n_1 * n_1.T +  n_2 * n_2.T) *  (cos(a) - 1)*
+      R = I + (n_2 * n_1.T -  n_1 * n_2.T) *  sin(a) +  (n_1 * n_1.T +  n_2 * n_2.T) *  (cos(a) - 1)
        (https://analyticphysics.com/Higher%20Dimensions/Rotations%20in%20Higher%20Dimensions.htm)
 
 ![Alt text](images/decart.png)

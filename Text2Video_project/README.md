@@ -30,7 +30,7 @@
 ![Alt text](images/i_frame.png)
 
 - Анализ корреляций между изменениями соседних CLIP векторов и информации соседних кадров (пиксельной сумме) показывает четкую согласованность
-![Alt text](images/clio_pixel.png)
+![Alt text](images/clio_pixels.png)
   
 
 

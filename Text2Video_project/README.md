@@ -50,6 +50,7 @@
 <img src="gifs/Generation from R_drift latent, with drift edge latent and NORN_LATENT_Kandinsky-2-2_46_each_2_forse R_drift latent 1, forse edge drift 0.5_test_9.gif" alt="gif" width="280"/>
 <img src="gifs/Generation from roted text, R_drift latent, with drift edge latent and NORN_LATENT_Kandinsky-2-2_46_each_2_forse_rote 1 with NORM_ROTED, forse R_drift latent 1, forse edge drift 1_test_9.gif" alt="gif" width="280"/> 
 
+
 ## ИСТОЧНИК ДВИЖЕНИЙ
 <img src="gifs/Kandinsky-2-2_28_each_2_forse_rote 0.3 with NORM_ROTED, forse R_drift latent 1, forse edge drift 1_test_11.gif" width="500"/>
 <img src="gifs/Kandinsky-2-2_12_each_2_forse_rote 0.5 with NORM_ROTED, forse R_drift latent 1, forse edge drift 1_test_1.gif" alt="gif" width="500"/>

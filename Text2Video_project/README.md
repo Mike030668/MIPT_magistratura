@@ -42,5 +42,6 @@
 ## ЭКСПЕРЕМЕНТЫ
 <li>  Unet stable-diffusion-v1-4
 
-<img src="[https://github.com/Mike030668/MIPT_magistratura/blob/main/Text2Video_project/gifs/43_textforse_0.0075_dreif_0.003_test_0.gif" width="200"/> <img src="[https://openclipart.org/download/71101/two.svg](https://github.com/Mike030668/MIPT_magistratura/blob/main/Text2Video_project/gifs/23_textforse_0.0075_dreif_0.001_test_robot_dreif_own_latent%20(1).gif)https://github.com/Mike030668/MIPT_magistratura/blob/main/Text2Video_project/gifs/23_textforse_0.0075_dreif_0.001_test_robot_dreif_own_latent%20(1).gif" width="300"/>
+![]([http://i.imgur.com/OUkLi.gif](https://github.com/Mike030668/MIPT_magistratura/blob/main/Text2Video_project/gifs/43_textforse_0.0075_dreif_0.003_test_0.gif))
+
 

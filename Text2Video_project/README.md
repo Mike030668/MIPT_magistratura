@@ -42,6 +42,6 @@
 ## ЭКСПЕРЕМЕНТЫ
 <li>  Unet stable-diffusion-v1-4
 
-<img src="gifs/43_textforse_0.0075_dreif_0.003_test_0.gif" alt="gif" width="300" height="540">
+<img src="gifs/43_textforse_0.0075_dreif_0.003_test_0.gif" alt="gif"  width="200"/> <img src="https://openclipart.org/download/71101/two.svg" width="300"/>
 
 

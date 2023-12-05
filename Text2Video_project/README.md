@@ -44,4 +44,4 @@
      
 Solarized dark             |  Solarized Ocean
 :-------------------------:|:-------------------------:
-![]([https://...Dark.png](https://drive.google.com/file/d/1vMjnMGKsfqUEjuCVTj9J6GVmhOZibWq1/view?usp=sharing)https://drive.google.com/file/d/1vMjnMGKsfqUEjuCVTj9J6GVmhOZibWq1/view?usp=sharing)  |  ![]([https://...Ocean.png](https://drive.google.com/file/d/1-c3gJJN5hJQQSK9X9BP1i7Lvtll5IAIb/view?usp=sharing)https://drive.google.com/file/d/1-c3gJJN5hJQQSK9X9BP1i7Lvtll5IAIb/view?usp=sharing)
+![]([https://...Dark.png](https://drive.google.com/file/d/1vMjnMGKsfqUEjuCVTj9J6GVmhOZibWq1/view?usp=sharing)https://drive.google.com/file/d/1vMjnMGKsfqUEjuCVTj9J6GVmhOZibWq1/view?usp=sharing)  |  ![]([gifs/23_textforse_0.0075_dreif_0.001_test_robot_dreif_own_latent (1).gif])

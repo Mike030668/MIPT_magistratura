@@ -42,6 +42,7 @@
 ## ЭКСПЕРЕМЕНТЫ
 <li>  Unet stable-diffusion-v1-4
 
-<img src="gifs/43_textforse_0.0075_dreif_0.003_test_0.gif" alt="gif"  width="200"/> <img src="https://openclipart.org/download/71101/two.svg" width="300"/>
+<img src="gifs/43_textforse_0.0075_dreif_0.003_test_0.gif" alt="gif"  width="200"/> <img src="gifs/23_textforse_0.0075_dreif_0.001_test_robot_dreif_own_latent%20(1).gif" alt="gif" width="200"/> <img src="gifs/42_textforse_0.0035_dreif_0.001_seed_7901_test_photograph of an astronaut jumping on the moon from a tiger_shift_5.gif
+" alt="gif" width="200"/>
 
 

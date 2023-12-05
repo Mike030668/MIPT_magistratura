@@ -44,4 +44,4 @@
      
 Solarized dark             |  Solarized Ocean
 :-------------------------:|:-------------------------:
-![]([https://...Dark.png](https://drive.google.com/file/d/1vMjnMGKsfqUEjuCVTj9J6GVmhOZibWq1/view?usp=sharing)https://drive.google.com/file/d/1vMjnMGKsfqUEjuCVTj9J6GVmhOZibWq1/view?usp=sharing)  |  ![]([gifs/23_textforse_0.0075_dreif_0.001_test_robot_dreif_own_latent (1).gif])
+![]([https://github.com/Mike030668/MIPT_magistratura/blob/main/Text2Video_project/gifs/43_textforse_0.0075_dreif_0.003_test_0.gif)  |  ![]([https://github.com/Mike030668/MIPT_magistratura/blob/main/Text2Video_project/gifs/23_textforse_0.0075_dreif_0.001_test_robot_dreif_own_latent%20(1).gif])

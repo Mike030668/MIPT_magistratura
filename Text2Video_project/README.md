@@ -42,6 +42,6 @@
 ## ЭКСПЕРЕМЕНТЫ
 <li>  Unet stable-diffusion-v1-4
 
-![myfile](Text2Video_project/gifs/43_textforse_0.0075_dreif_0.003_test_0.gif)
+![myfile](gifs/43_textforse_0.0075_dreif_0.003_test_0.gif)
 
 

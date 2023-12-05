@@ -46,3 +46,5 @@
 
 <li>  Unet Kandinsky 2.2 Text 2 Image
 
+<img src="gifs/edge latent with NORN_LATENT_Kandinsky-2-2_2_each_2_forse rore edge 0.5 with forse drift 0.5_test_0.gif.gif" alt="gif"  width="200"/> 
+

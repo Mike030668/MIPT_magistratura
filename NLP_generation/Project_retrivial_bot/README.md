@@ -6,4 +6,4 @@
 
 - telegramm inference [colab_notebook](https://github.com/Mike030668/MIPT_magistratura/blob/main/NLP_generation/Project_retrivial_bot/Telegram_inference.ipynb)  and try **https://t.me/SouthPark_test_bot** bot
 
-- ![Alt text](images/start.jpg)
+- ![Alt text](images/start.png)

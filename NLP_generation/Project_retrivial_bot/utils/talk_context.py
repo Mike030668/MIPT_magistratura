@@ -19,6 +19,7 @@ def get_best_rand_reply(
     context: str,
     corpus: list[str],
     max_length,
+    device,
     size_patch = 150,
     qty_rand_choose = 5,
     max_out_context = 200,
@@ -48,7 +49,7 @@ def get_best_rand_reply(
             padding=True,
             truncation=True,
             return_tensors="pt"
-        ).to(finetuned_ce.device)
+        ).to(device)
 
         # Finetuned CrossEncoder model scoring
         with torch.no_grad():

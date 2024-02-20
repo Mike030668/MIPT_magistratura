@@ -1,4 +1,4 @@
-# Project_retrivial_bot
+# Project_retrevial_bot
  MIPT_education solution home_task:
 
 

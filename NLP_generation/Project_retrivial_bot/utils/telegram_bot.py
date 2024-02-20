@@ -15,10 +15,11 @@ sys.path.append(MAIN_DIR)
 from utils.utils import get_replies, load_weights, CrossEncoderBert
 from utils.talk_context import flush_memory, get_best_rand_reply
 
+DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
+MAIN_DIR =  "/content/MIPT_magistratura/NLP_generation/Project_retrivial_bot"
+MAX_LENGTH = 128
+
 def main():
-    DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
-    MAIN_DIR =  "/content/MIPT_magistratura/NLP_generation/Project_retrivial_bot"
-    MAX_LENGTH = 128
 
     # load data
     path_df = MAIN_DIR + "/data/talks_dataset.df"

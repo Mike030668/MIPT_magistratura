@@ -1,6 +1,7 @@
 
 import torch
 import random
+import numpy as np
 import gc
 
 def flush_memory():

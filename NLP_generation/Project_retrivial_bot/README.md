@@ -6,6 +6,8 @@
 
 - telegramm inference [colab_notebook](https://github.com/Mike030668/MIPT_magistratura/blob/main/NLP_generation/Project_retrivial_bot/Telegram_inference.ipynb)  and try **https://t.me/SouthPark_test_bot** bot
 
-![Alt text](images/start.png)
+#![Alt text](images/start.png)
+<img src='images/start.png' width='250'>
 
-![Alt text](images/talk.png)
+#![Alt text](images/talk.png)
+<img src='images/talk.png' width='250'>

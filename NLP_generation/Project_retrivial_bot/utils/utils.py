@@ -1,6 +1,7 @@
 import gdown  # библиотека по работе с файлами в том числе и с гугл_диска
 from transformers import AutoTokenizer, AutoModel
 import torch
+import random
 
 MAX_LENGTH = 128
 
@@ -8,8 +9,8 @@ def get_replies(df):
     # Соберем все ответы из базы
     base_answers = df['close_reply'].values
     replies = []
-    for rep in base_answers.tolist():
-      replies.extend(rep)
+    for rep in base_answers.tolist()[:-100]:
+      replies.append(random.choice(rep))
     return list(set(replies)) # Список всех ответов из базы
 
 

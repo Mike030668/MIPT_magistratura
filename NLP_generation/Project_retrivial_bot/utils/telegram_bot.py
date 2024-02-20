@@ -72,7 +72,7 @@ def main():
         bot.send_message(message.chat.id, best_answer)
 
     # Запускаем бота
-    print('READY\n')
+    print('READY  to talk in - https://t.me/SouthPark_test_bot\n')
     bot.polling(none_stop=True, interval=0)
 
 

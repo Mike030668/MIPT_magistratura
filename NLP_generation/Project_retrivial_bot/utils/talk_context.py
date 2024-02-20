@@ -1,6 +1,6 @@
 
 import torch
-import numpy as np
+import random
 import gc
 
 def flush_memory():
@@ -37,7 +37,7 @@ def get_best_rand_reply(
 
     # так как база большая
     for i in range(qty_rand_choose):
-        rand_patch_corpus = list(np.random.choice(corpus, size_patch))
+        rand_patch_corpus = [random.choice(corpus) for _ in range(size_patch)]
         #print(len(rand_patch_corpus))
 
         queries = [conext_memory]* len(rand_patch_corpus)

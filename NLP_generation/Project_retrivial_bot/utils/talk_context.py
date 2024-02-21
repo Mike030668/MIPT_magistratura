@@ -24,6 +24,8 @@ def get_best_rand_reply(
     size_patch = 200,
     qty_rand_choose = 7,
     max_out_context = 100,
+    take_1 = 5,
+    take_2 = 2,
 
 ) -> None:
 
@@ -60,11 +62,11 @@ def get_best_rand_reply(
 
         # Process scores for finetuned model
         scores = ce_scores.cpu().numpy()
-        scores_ix = np.argsort(scores)[::-1][5]
+        scores_ix = np.argsort(scores)[::-1][take_1]
         dic_answ["score"].append(scores[scores_ix])
         dic_answ["ans"].append(rand_patch_corpus[scores_ix])
 
-    id = np.argsort(dic_answ["score"])[::-1][1]#
+    id = np.argsort(dic_answ["score"])[::-1][take_2]#
     answer = dic_answ["ans"][id]
     conext_memory = answer+"[SEP]"+conext_memory
     flush_memory()

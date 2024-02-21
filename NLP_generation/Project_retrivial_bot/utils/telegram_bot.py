@@ -31,7 +31,7 @@ def main():
     all_replies = get_replies(talks_df)
 
     print('Load weights and model\n')
-    url = 'https://drive.google.com/file/d/1yj0VuOJmpwio0h9cLuBs50oG_YzVr86a/view?usp=sharing'
+    url = 'https://drive.google.com/file/d/1-3MAwpJbztSND_3NbnSEW_g-XlfUDvtY/view?usp=sharing'
     weights =  '/model.pt'
     load_weights(url_weights = url, name_model = "cross_encoder", name_weights = weights, main_dir = MAIN_DIR)
 

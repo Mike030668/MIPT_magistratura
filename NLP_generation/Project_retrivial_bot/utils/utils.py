@@ -10,6 +10,8 @@ def get_replies(df):
     base_answers = df['close_reply'].values
     replies = []
     for rep in base_answers.tolist()[:-100]:
+      rep = random.choice(rep)
+      if len(rep)<50: replies.append(rep)
       replies.append(random.choice(rep))
     return list(set(replies)) # Список всех ответов из базы
 

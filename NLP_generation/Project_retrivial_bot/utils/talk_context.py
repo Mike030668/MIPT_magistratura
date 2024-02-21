@@ -29,7 +29,7 @@ def get_best_rand_reply(
 
     dic_answ = dict()
     dic_answ["score"] = []
-    dic_answ["answer"] = []
+    dic_answ["ans"] = []
 
     conext_memory= query+"[SEP]"+context
 
@@ -62,10 +62,10 @@ def get_best_rand_reply(
         scores = ce_scores.cpu().numpy()
         scores_ix = np.argsort(scores)[::-1][0]
         dic_answ["score"].append(scores[scores_ix])
-        dic_answ["answer"].append(rand_patch_corpus[scores_ix])
+        dic_answ["ans"].append(rand_patch_corpus[scores_ix])
 
     id = np.array(dic_answ["score"]).argmax()
-    answer = dic_answ["answer"][id]
+    answer = dic_answ["ans"][id]
     conext_memory = answer+"[SEP]"+conext_memory
     flush_memory()
     return answer, conext_memory[:max_out_context], dic_answ["score"][id]

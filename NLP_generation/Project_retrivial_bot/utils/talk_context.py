@@ -64,7 +64,7 @@ def get_best_rand_reply(
         dic_answ["score"].append(scores[scores_ix])
         dic_answ["answer"].append(rand_patch_corpus[scores_ix])
 
-    id = np.argsort(dic_answ["score"])[::-1][0]# np.array(dic_answ["score"]).argmax()
+    id = np.array(dic_answ["score"]).argmax()
     answer = dic_answ["answer"][id]
     conext_memory = answer+"[SEP]"+conext_memory
     flush_memory()

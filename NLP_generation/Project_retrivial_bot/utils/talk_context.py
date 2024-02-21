@@ -62,7 +62,7 @@ def get_best_rand_reply(
         scores = ce_scores.cpu().numpy()
         scores_ix = np.argsort(scores)[::-1][0]
         dic_answ["score"].append(scores[scores_ix])
-        dic_answ["ans"].append(rand_patch_corpus[scores_ix])
+        dic_answ["ans"].extend([rand_patch_corpus[scores_ix]])
 
     id = np.array(dic_answ["score"]).argmax()
     answer = dic_answ["ans"][id]

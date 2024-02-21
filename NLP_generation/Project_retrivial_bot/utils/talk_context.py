@@ -21,9 +21,9 @@ def get_best_rand_reply(
     corpus: list[str],
     max_length,
     device,
-    size_patch = 150,
-    qty_rand_choose = 5,
-    max_out_context = 200,
+    size_patch = 200,
+    qty_rand_choose = 7,
+    max_out_context = 100,
 
 ) -> None:
 
@@ -60,11 +60,11 @@ def get_best_rand_reply(
 
         # Process scores for finetuned model
         scores = ce_scores.cpu().numpy()
-        scores_ix = np.argsort(scores)[::-1][0]
+        scores_ix = np.argsort(scores)[::-1][5]
         dic_answ["score"].append(scores[scores_ix])
-        dic_answ["ans"].extend([rand_patch_corpus[scores_ix]])
+        dic_answ["ans"].append(rand_patch_corpus[scores_ix])
 
-    id = np.array(dic_answ["score"]).argmax()
+    id = np.argsort(dic_answ["score"])[::-1][1]#
     answer = dic_answ["ans"][id]
     conext_memory = answer+"[SEP]"+conext_memory
     flush_memory()

@@ -6,13 +6,18 @@ import random
 MAX_LENGTH = 128
 
 def get_replies(df):
+    speakers = ['Mr. Adler', 'Mr. Garrison', 'Mr. Hankey', 'Mr. Hat', 'Mr. Mackey', 'Mr. Slave',
+            'Mrs. Garrison', 'Mrs. McCormick', 'Ms. Choksondik', 'Ms. Crabtree', 'Ms. Ellen', 
+              'Jimbo', 'Jimmy', 'Joe', 'Josh', 'Kenny', 'Kids', 'Kyle',
+            'Kyle Two', 'Larry', 'Liane', 'Linda', 'Manager', 'Mark', 'Marvin', 'Mayor',  
+            'Dr. Chinstrap', 'Dr. Doctor', 'Gary', 'Tom Cruise', 'Towelie', 'Tuong Lu Kim', 'Tweek', 'Wendy']
     # Соберем все ответы из базы
-    base_answers = df['close_reply'].values
+    base_answers = df[df["speaker"].isin(speakers)]['close_reply'].values
     replies = []
     for rep in base_answers.tolist()[:-100]:
-      rep = random.choice(rep)
-      if len(rep)<50 and "?" not in rep: replies.append(rep)
-      replies.append(random.choice(rep))
+        if len(rep): rep = random.choice(rep)
+        else: pass
+        if 0< len(rep)<100 and "?" not in rep: replies.append(rep)
     return list(set(replies)) # Список всех ответов из базы
 
 

@@ -1,9 +1,5 @@
-import gdown  # библиотека по работе с файлами в том числе и с гугл_диска
-import pandas as pd
-import numpy as np
-import random
+
 import torch
-import gc
 import sys
 
 from transformers import AutoTokenizer, AutoModelForCausalLM
@@ -13,13 +9,11 @@ from telebot import types
 import warnings
 warnings.filterwarnings('ignore')
 
-
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 MAIN_DIR =  "/content/MIPT_magistratura/NLP_generation/Generation"
 
 sys.path.append(MAIN_DIR)
-from utils.download import gd_folder_download
-from utils.constant import SHARE_DIR, TOKEN
+from utils.constant import TOKEN
 from utils.generate import generate_answer, get_prompt, ROLES
 
 with open('/content/model_dir.txt') as f:
@@ -43,10 +37,8 @@ def main():
                                             
     tokenizer.pad_token = tokenizer.eos_token
 
-
     # Creating tokenizer and definin
     print('Model loaded\n')
-
 
     # Создаем экземпляр бота
     bot = telebot.TeleBot(TOKEN)
@@ -62,13 +54,13 @@ def main():
 
         bot.send_message(m.chat.id, 'Бот запущен. Начните общение')
 
-    conext_memory = ''
-    get_role = False
-
     # Получение сообщений от пользователя
     @bot.message_handler(content_types=["text"])
     def handle_text(message):
         global conext_memory, get_role
+
+        conext_memory = ''
+        get_role = False
 
         #print("in_conext_memory", conext_memory)
         #print()

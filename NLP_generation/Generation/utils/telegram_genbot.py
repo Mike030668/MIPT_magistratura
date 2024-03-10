@@ -4,12 +4,9 @@ import numpy as np
 import random
 import torch
 import gc
-from transformers import AutoTokenizer, AutoModel
 import sys
 
-from peft import get_peft_model, PeftConfig, PeftModel, LoraConfig, prepare_model_for_kbit_training
-from transformers import AutoTokenizer, AutoModelForCausalLM, BitsAndBytesConfig, TrainingArguments, GenerationConfig
-
+from transformers import AutoTokenizer, AutoModelForCausalLM
 import telebot
 from telebot import types
 
@@ -36,28 +33,15 @@ def main():
     # код потребует гугл авторизацию любую из имеющихся
     model_dir = gd_folder_download(SHARE_DIR, dir_to)
 
-    config = PeftConfig.from_pretrained(model_dir)
+    model = AutoModelForCausalLM.from_pretrained(model_dir)
+    model.to(DEVICE)
+
     # Loading the model with double quantization
-    model_name = "PY007/TinyLlama-1.1B-step-50K-105b"
-
-    bnb_config = BitsAndBytesConfig(
-        load_in_4bit=True,
-        bnb_4bit_quant_type="nf4",
-        bnb_4bit_use_double_quant=True,
-        bnb_4bit_compute_dtype=torch.bfloat16,
-    )
-
-    model = AutoModelForCausalLM.from_pretrained(
-        config.base_model_name_or_path,
-        quantization_config=bnb_config,
-        trust_remote_code=True,
-        device_map='auto'
-        )
-
+    model_name =model.config._name_or_path
     # Creating tokenizer and defining the pad token
     tokenizer = AutoTokenizer.from_pretrained(model_name, 
-                                              trust_remote_code=True, 
-                                              padding_side='right')
+                                            trust_remote_code=True, 
+                                            padding_side='right')
     tokenizer.pad_token = tokenizer.eos_token
 
 

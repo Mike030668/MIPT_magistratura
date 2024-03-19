@@ -1,7 +1,7 @@
 
 # Презентация исследований для решения задачи Text - 2 - Video
 
-- [видео доклада можно посмотреть]([https://drive.google.com/file/d/1pAPhVM_eh3-WU_iY04GDMMV648D3NOhd/view?usp=sharing](https://youtu.be/aPqhz1QZbdw?si=2Y8icooAEkdAKBYV))
+- [видео доклада можно посмотреть](https://youtu.be/aPqhz1QZbdw?si=k01eIgG7uMaSCyR-)
 
 ## Отправная точка - идея сплитера эмбедингов:
 - [презентация начала исследований](https://drive.google.com/file/d/1pAPhVM_eh3-WU_iY04GDMMV648D3NOhd/view?usp=sharing)

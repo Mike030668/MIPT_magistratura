@@ -117,13 +117,18 @@ clear_ozu = GarbageCollectorCallback()
 
 
 def train_network(
-                  main_model,
-                  target_model,
-                  memory,
-                  part_memory,
-                  batch_size,
-                  gamma,
-
+                    main_model,
+                    target_model,
+                    batch_size,
+                    gamma,
+                    timesteps_per_train,
+                    num_frames,
+                    image_width,
+                    image_height,
+                    chanels,
+                    memory,
+                    part_memory
+                    
                   ):
 
   ''' Функция обучения алгоритма
@@ -134,7 +139,15 @@ def train_network(
   '''
 
   # Извлекаем пакет данных из памяти
-  previous_states, actions, rewards, current_states, game_finished = sample_from_memory_m(memory, part_memory)
+  previous_states, actions, rewards, current_states, game_finished = sample_from_memory_m(memory,
+                                                                                          timesteps_per_train,
+                                                                                          num_frames,
+                                                                                          image_width,
+                                                                                          image_height,
+                                                                                          chanels,
+                                                                                          batch_size,
+                                                                                          part_memory
+                                                                                            )
 
   # Предсказываем Q(s, a)
   Q_values = main_model.predict(previous_states)

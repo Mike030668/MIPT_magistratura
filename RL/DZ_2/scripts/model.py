@@ -6,11 +6,11 @@ from tensorflow.keras.optimizers import RMSprop
 # Библиотека тензорфлоу
 import tensorflow as tf
 
-from memory import sample_from_memory_m
+from scripts.memory import sample_from_memory_m
 
 def Make_DQN(input_shape,
              action_size,
-             learning_rate):
+             learning_rate = 1e-4):
 
     model = Sequential()
 

@@ -6,7 +6,7 @@
 
 документация - https://vizdoom.farama.org/introduction/pythonQuickstart/
 
-<img src='images/vizdoom.png' width='270'>  <img src='images/videoframe_6726.png' width='270'>  <img src='images/videoframe_16600.png' width='270'>
+<img src='images/vizdoom.png' width='290'>  <img src='images/videoframe_6726.png' width='290'>  <img src='images/videoframe_16600.png' width='290'>
 
 ## особенности:
 - используется временная модель для анализа последовательного набора кадров. тут на 9 кадров

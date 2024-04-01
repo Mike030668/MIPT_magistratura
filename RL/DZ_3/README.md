@@ -10,7 +10,7 @@ _________________________
 
 _________________________
 
-<img src="images/sceme.png" alt="png"  width="300"/>  <img src="images/SAC.png" alt="png"  width="400"/>   <img src="images/policy.png" alt="png"  width="250"/> 
+<img src="images/sceme.png" alt="png"  width="310"/>  <img src="images/SAC.png" alt="png"  width="400"/>   <img src="images/policy.png" alt="png"  width="260"/> 
 
 DDPG, являющийся методом актера-критика, состоит из двух моделей: актера и критика. Актор — это сеть политик, которая принимает состояние в качестве входных данных и выводит точное действие (непрерывное), а не распределение вероятностей по действиям, таким как DQN.
 

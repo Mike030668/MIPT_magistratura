@@ -25,7 +25,7 @@ ACTOR — это сеть политик, которая принимает со
 
 - проведено обучение агента DDPG в [ноутбуке](https://github.com/Mike030668/MIPT_magistratura/blob/main/RL/DZ_3/DZ_3_pybullet_DDPG.ipynb)
 
-<img src="images/Видео_DDPG.gif" alt="gif"  width="600"/>  <img src="images/DDPG.png" alt="png"  width="600"/> 
+<img src="images/Видео_DDPG.gif" alt="gif"  width="550"/>  <img src="images/DDPG.png" alt="png"  width="550"/> 
 
 - далее проведено обучение агента DMPO в [ноутбуке](https://github.com/Mike030668/MIPT_magistratura/blob/main/RL/DZ_3/DZ_3_pybullet_DMPO.ipynb)
   

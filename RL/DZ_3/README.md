@@ -27,14 +27,21 @@ ACTOR — это сеть политик, которая принимает со
 
 <img src="images/Видео_DDPG.gif" alt="gif"  width="550"/>  <img src="images/DDPG.png" alt="png"  width="420"/> 
 
-- далее проведено обучение агента DMPO в [ноутбуке](https://github.com/Mike030668/MIPT_magistratura/blob/main/RL/DZ_3/DZ_3_pybullet_DMPO.ipynb)
+## проведено обучение агента D4PG в [ноутбуке](https://github.com/Mike030668/MIPT_magistratura/blob/main/RL/DZ_3/DZ_3_pybullet_D4PG.ipynb)
+
+Данный агент имеет возможность в асинхронном исполнении запускатьсь в копиях сред для лучшего обучения и обощения взаимодействия со редой 
+
+<img src="images/Видео_D4PG.gif" alt="gif"  width="550"/>  <img src="images/D4PG.png" alt="png"  width="420"/> 
+
+
+## Так же проведено обучение агента DMPO в [ноутбуке](https://github.com/Mike030668/MIPT_magistratura/blob/main/RL/DZ_3/DZ_3_pybullet_DMPO.ipynb)
   
 **Distributional Maximum a posteriori Policy Optimization (DMPO)**
 
 Максимальная апостериорная оптимизация политики:
-    MPO — это KL-регуляризованный алгоритм обучения с подкреплением для задач непрерывного управления. Цель включает поочередное максимизацию Q-функции и оптимизацию политики p.
-    MPO работает в рамках концепции максимизации ожиданий. Не отностится к семейству SAC . Взят для сравнения
+MPO — это KL-регуляризованный алгоритм обучения с подкреплением для задач непрерывного управления. Цель включает поочередное максимизацию Q-функции и оптимизацию политики p.
+MPO работает в рамках концепции максимизации ожиданий. Не отностится к семейству SAC . Взят для сравнения
 
-<img src="images/Видео_DDPO.gif" alt="gif"  width="300"/> 
+<img src="images/Видео_DDPO.gif" alt="gif"  width="400"/> 
 
   

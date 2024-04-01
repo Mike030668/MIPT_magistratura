@@ -2,7 +2,7 @@
 
 _________________________
 
-<img src="images/sceme.png" alt="png"  width="300"/> 
+<img src="images/sceme.png" alt="png"  width="500"/> 
 
 ### Для задания был исполmзован фреймворк *`google-deepmind-acme`*, который позволил провести тесты и обучение на CPU в среде `pybullet-gym` - `Walker2DBulletEnv`
 

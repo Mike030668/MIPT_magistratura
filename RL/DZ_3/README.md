@@ -23,8 +23,9 @@ ACTOR — это сеть политик, которая принимает со
 
 3. Политика поведения `b(a|s)`: Это политика, которая используется агентом для выбора действия, т.е. агент следует этой политике для взаимодействия с окружающей средой.
 
+- проведено обучение агента DDPG в [ноутбуке](https://github.com/Mike030668/MIPT_magistratura/blob/main/RL/DZ_3/DZ_3_pybullet_DDPG.ipynb)
 
-
+<img src="images/Видео_DDPG.gif" alt="gif"  width="300"/>  <img src="images/DDPG.png" alt="png"  width="310"/> 
 
 - далее проведено обучение агента DMPO в [ноутбуке](https://github.com/Mike030668/MIPT_magistratura/blob/main/RL/DZ_3/DZ_3_pybullet_DMPO.ipynb)
   

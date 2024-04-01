@@ -8,6 +8,7 @@ _________________________
   
 <img src="images/Видео_test1.gif" alt="gif"  width="300"/>  <img src="images/Виде_test2.gif" alt="gif"  width="300"/>  <img src="images/Видео_test3.gif" alt="gif"  width="300"/> 
 
+тесты показали, что можно привестив движение объект путем подбора функций и парамметров
 _________________________
 
 <img src="images/sceme.png" alt="png"  width="310"/>  <img src="images/SAC.png" alt="png"  width="400"/>   <img src="images/policy.png" alt="png"  width="260"/> 

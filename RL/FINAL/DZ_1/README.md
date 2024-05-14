@@ -42,3 +42,4 @@
 - `Overall Best Arm (no context)` - Лучшее действие без учета контекста (контрольная линия).
 
 **Сравнительный график тестов **
+<img src="Comparison of Online Contextual Bandit Policies.png" alt="png"  width="800"/> 

@@ -45,7 +45,6 @@
 **Сравнительный график тестов на BibTeX**
 <img src="images/Comparison of Online Contextual Bandit Policies  BibTeX.png" alt="png"  width="800"/> 
 
-## Подробный анализ графика
 
 **Bootstrapped Upper Confidence Bound:**
 - Показывает высокие кумулятивные вознаграждения и стабильный рост на протяжении всего эксперимента.

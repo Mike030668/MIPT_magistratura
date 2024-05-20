@@ -65,6 +65,7 @@
 **Сравнительный график тестов на BibTeX**
 <img src="images/Comparison of Online Contextual Bandit Policies  BibTeX.png" alt="png"  width="800"/> 
 
+ноутбук с обучением и описаним [тут](RL/FINAL/DZ_1/Задание_1_EURLex_Bigdata_Эксперименты_с_алгоритмами_многоруких_бандитов.ipynb)
 
 **Bootstrapped Upper Confidence Bound:**
 - Показывает высокие кумулятивные вознаграждения и стабильный рост на протяжении всего эксперимента.

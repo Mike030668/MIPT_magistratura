@@ -4,5 +4,5 @@
 
 **Игра роботов**
 
-<img src="шьфпуы/game_play_2_robots.gif" alt="gif"  width="270"/>
+<img src="images/game_play_2_robots.gif" alt="gif"  width="270"/>
 

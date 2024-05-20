@@ -6,3 +6,5 @@
 
 <img src="images/game_play_2_robots.gif" alt="gif"  width="470"/>
 
+А также обучение с DQN и A2C моделями
+

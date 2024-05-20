@@ -21,13 +21,25 @@
 - `Adaptive Active Greedy` - Адаптивная активная жадная стратегия.
 - `Overall Best Arm (no context)` - Лучшее действие без учета контекста (контрольная линия).
 
+## датасет Mediamil
+
+<img src="images/Comparison of Online Contextual Bandit Policies Mediamil Dataset.png" alt="png"  width="800"/> 
+
+ноутбук с обучением и описаним [тут](RL/FINAL/DZ_1/Задание_1_Mediamill_Эксперименты_с_алгоритмами_многоруких_бандитов.ipynb)
+
 ## датасет Delicious
 
 <img src="images/Comparison of Online Contextual Bandit Policies Delicious Dataset.png" alt="png"  width="800"/> 
 
+ноутбук с обучением и описаним [тут](RL/FINAL/DZ_1/Задание_1_Delicious_Эксперименты_с_алгоритмами_многоруких_бандитов.ipynb)
+
+
 ## датасет EURlex
 
 <img src="images/Comparison of Online Contextual Bandit Policies EURLex.png" alt="png"  width="800"/> 
+
+ноутбук с обучением и описаним [тут](RL/FINAL/DZ_1/Задание_1_EURLex_Bigdata_Эксперименты_с_алгоритмами_многоруких_бандитов.ipynb)
+
 
 ## Описание датасета BibTeX
 

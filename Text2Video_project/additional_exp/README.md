@@ -105,6 +105,6 @@ Here’s готовый черновик `README.md` — кратко, по де
 ## 11) Ссылки
 
 * Статья (препринт/версия журнала): `на рецензии`
-* Репозиторий с экспериментами: `[](https://drive.google.com/drive/folders/1DxRwS3s8Z0wVvXtBrpvVz1KqKnqsM6B6?usp=sharing)`
-* Ноутбук экспериментов: `[Pipe_exp_K22_text_rote_dreif_latent_cropsquare_depth_.ipynb]`
+* Репозиторий с экспериментами: [](https://drive.google.com/drive/folders/1DxRwS3s8Z0wVvXtBrpvVz1KqKnqsM6B6?usp=sharing)
+* Ноутбук экспериментов: [](Pipe_exp_K22_text_rote_dreif_latent_cropsquare_depth_.ipynb)
 

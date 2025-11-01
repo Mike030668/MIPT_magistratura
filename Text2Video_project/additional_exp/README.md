@@ -1,7 +1,3 @@
-Here’s готовый черновик `README.md` — кратко, по делу, с местами для ссылок и картинок. Подставь свои пути в `[...]` и `./img/...`.
-
----
-
 # Rotation-in-Embedding Experiments (Kandinsky 2.2)
 
 Короткое резюме экспериментов из статьи: управление видеорядом **без дообучения модели**, через **малые ортогональные повороты** в пространстве текстовых эмбеддингов и (опционально) в стартовом шуме. Показываем перенос направлений из влияющего видеоряда в CLIP/EDGE/DEPTH и далее в пиксели.
@@ -105,6 +101,6 @@ Here’s готовый черновик `README.md` — кратко, по де
 ## 11) Ссылки
 
 * Статья (препринт/версия журнала): `на рецензии`
-* ![Репозиторий с экспериментами:](https://drive.google.com/drive/folders/1DxRwS3s8Z0wVvXtBrpvVz1KqKnqsM6B6?usp=sharing)
-* ![Ноутбук экспериментов:](./Pipe_exp_K22_text_rote_dreif_latent_cropsquare_depth_.ipynb)
+* [Репозиторий с экспериментами:](https://drive.google.com/drive/folders/1DxRwS3s8Z0wVvXtBrpvVz1KqKnqsM6B6?usp=sharing)
+* [Ноутбук экспериментов:](./Pipe_exp_K22_text_rote_dreif_latent_cropsquare_depth_.ipynb)
 

@@ -1,6 +1,8 @@
 
 # Презентация исследований для решения задачи Text - 2 - Video
 
+- Подробные эксперерименты с показом корреляций в изменениях проведенный в 2025г[можно изучить тут](https://github.com/Mike030668/MIPT_magistratura/tree/main/Text2Video_project/additional_exp)
+
 - [видео доклада можно посмотреть](https://youtu.be/aPqhz1QZbdw?si=k01eIgG7uMaSCyR-)
 
 ## Отправная точка - идея сплитера эмбедингов:
